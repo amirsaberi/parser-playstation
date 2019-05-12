@@ -1,0 +1,33 @@
+{
+    "name": "abuseio/parser-playstation",
+    "description": "Parser addon for handling notifications from PlayStation",
+    "version": "0.1",
+    "keywords": ["laravel", "abuseio", "parser", "playstation"],
+    "homepage": "http://abuse.io",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Amirhossein Saberi",
+            "email": "amirsaberi.com",
+            "homepage": "https://github.com/amirsaberi",
+            "role": "Lead"
+        }
+    ],
+    "support": {
+        "email": "amirsaberi.com",
+        "issues": "https://github.com/amirsaberi/parser-playstation",
+        "irc": "irc://irc.freenode.net/abuseio",
+        "source": "https://github.com/amirsaberi/parser-playstation",
+        "docs": "https://abuse.io/resources/documentation/"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "abuseio/parser-common": "1.1.* || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbuseIO\\Parser\\Blocklistde\\": "src/"
+        }
+    }
+}
